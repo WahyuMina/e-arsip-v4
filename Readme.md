@@ -2,7 +2,7 @@
 
 ### A. Deskripsi Sistem
 
-     E-Arsip adalah sistem atau cara mengelola arsip(dokumen) secara elektronik. Menggunakan Komputer atau perangkat digital lainnya, seperti Menyimpan, pengelolaan, dan pencarian informasi untuk departemen perusahaan.
+E-Arsip adalah sistem atau cara mengelola arsip(dokumen) secara elektronik. Menggunakan Komputer atau perangkat digital lainnya, seperti Menyimpan, pengelolaan, dan pencarian informasi untuk departemen perusahaan.
 
 ### B. Fungsi-Fungsi pada Sistem
 
