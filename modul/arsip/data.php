@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <a href="?halaman=arsip_surat&hal=tambahdata" class="btn btn-info mb-3">Tambah Data</a>
-        <button onClick="window.print()" class="btn btn-primary mb-3" id="printTable">Print</button>
+        <a href="./modul/arsip/cetak_surat_arsip.php" class="btn btn-warning mb-3" style="color: yellow;">Print</a>
         <table class="table table-borderd table-hovered table-striped">
             <tr>
                 <th>NO</th>
@@ -40,37 +40,5 @@
 
                 <?php endwhile; ?>
         </table>
-        <script type="text/javascript">
-        <!--
-        function printContent(id) {
-            str = document.getElementById(id).innerHTML
-            newwin = window.open('', 'printwin', 'left=100,top=100,width=400,height=400')
-            newwin.document.write('<HTML>\n<HEAD>\n')
-            newwin.document.write('<TITLE>Print Page</TITLE>\n')
-            newwin.document.write('<script>\n')
-            newwin.document.write('function chkstate(){\n')
-            newwin.document.write('if(document.readyState=="complete"){\n')
-            newwin.document.write('window.close()\n')
-            newwin.document.write('}\n')
-            newwin.document.write('else{\n')
-            newwin.document.write('setTimeout("chkstate()",2000)\n')
-            newwin.document.write('}\n')
-            newwin.document.write('}\n')
-            newwin.document.write('function print_win(){\n')
-            newwin.document.write('window.print();\n')
-            newwin.document.write('chkstate();\n')
-            newwin.document.write('}\n')
-            newwin.document.write('<\/script>\n')
-            newwin.document.write('</HEAD>\n')
-            newwin.document.write('<BODY onload="print_win()">\n')
-            newwin.document.write(str)
-            newwin.document.write('</BODY>\n')
-            newwin.document.write('</HTML>\n')
-            newwin.document.close()
-        }
-        //
-        -->
-        </script>
-
     </div>
 </div>

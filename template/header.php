@@ -25,7 +25,9 @@
     <!-- Awal Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand mb-1" href="?">E-Arsip</a>
+            <a class="navbar-brand" href="?" sty>
+                <img class="rounded-circle" src="file/96d0a8d5124080d559d37fcd0b802571-removebg-preview.png" width="80">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,4 +60,4 @@
     </nav>
     <!-- Akhir Nav -->
     <!-- Awal ontainer -->
-    <div class="container">
+    <div class="container mt-5 mb-5">

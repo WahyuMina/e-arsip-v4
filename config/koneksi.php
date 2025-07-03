@@ -6,6 +6,8 @@
        $database = "dbarsip"; 
 
     //    Koneksi Database
-    $koneksi = mysqli_connect($server, $user, $pass, $database) or die (mysqli_error($koneksi));
+    // $koneksi = mysqli_connect($server, $user, $pass, $database) or die (mysqli_error($koneksi));
+
+    $koneksi = new mysqli($server, $user, $pass, $database) or die (mysqli_error($koneksi));
 
 ?>

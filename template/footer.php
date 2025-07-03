@@ -1,4 +1,4 @@
-<footer class="bg-primary text-center text-white"> CopyRight&copy; 2024</footer>
+<footer class="bg-primary text-center text-white p-1 rounded"> CopyRight&copy; 2024</footer>
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
